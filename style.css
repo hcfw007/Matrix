@@ -6,3 +6,20 @@
     bottom: 0;
     background-color: #000;
 }
+
+.words {
+    color: #07581E;
+    text-shadow: 0 0 15px #7CE49C;
+    position: absolute;
+    word-wrap: break-word;
+    width: 0;
+}
+
+@keyframes drop {
+    from {
+        top: 0
+    }
+    to {
+        top: 100%
+    }
+}
